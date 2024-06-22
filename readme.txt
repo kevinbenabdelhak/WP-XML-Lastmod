@@ -28,7 +28,7 @@ WP XML Lastmod vous permet de désactiver la mise à jour automatique de la bali
 == Installation ==
 
 1. **Téléchargez le fichier ZIP du plugin :**
-   Rendez-vous sur la page de WP XML Lastmod sur WordPress.org et téléchargez le fichier ZIP du plugin.
+   Rendez-vous sur la page de WP XML Lastmod sur https://github.com/kevinbenabdelhak/WP-XML-Lastmod/ et téléchargez le dossier au format .ZIP
 
 2. **Uploader le fichier ZIP du plugin :**
    - Allez dans le panneau d'administration de WordPress et cliquez sur "Extensions" > "Ajouter".
@@ -39,7 +39,9 @@ WP XML Lastmod vous permet de désactiver la mise à jour automatique de la bali
    Une fois le plugin installé, cliquez sur "Activer".
 
 4. **Utilisation du plugin :**
-   - Éditez un article ou une page.
+   - Lorsque vous publiez un article, la publication apparait dans le sitemap.
+  - Lorsque vous mettez à jour la publication (avec le bouton classique bleu de WordPress " Mettre à jour "), la balise lastmod n'est PAS modifié.
+ - Pour actualiser la date de la balise lastmod du sitemap, cliquez sur le nouveau bouton "Mettre à jour + lastmod". Ainsi, vos modifications seront à jour et la date et l'heure actualisé dans le sitemap.
    - Dans l'écran d'édition, un nouveau bouton "Mettre à jour + lastmod" apparaîtra dans la section "Publier".
    - Cliquez sur ce bouton pour mettre à jour manuellement la balise `<lastmod>` de l'article dans le sitemap.
 
