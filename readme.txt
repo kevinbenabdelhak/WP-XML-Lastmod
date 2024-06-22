@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 === WP XML Lastmod ===
 Contributors: kevinbenabdelhak
 Tags: WordPress, SEO, Sitemap, XML, lastmod
