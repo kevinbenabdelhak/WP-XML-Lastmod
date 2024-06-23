@@ -40,8 +40,8 @@ WP XML Lastmod vous permet de désactiver la mise à jour automatique de la bali
 
 4. **Utilisation du plugin :**
    - Lorsque vous publiez un article, la publication apparait dans le sitemap.
-  - Lorsque vous mettez à jour la publication (avec le bouton classique bleu de WordPress " Mettre à jour "), la balise lastmod n'est PAS modifié.
- - Pour actualiser la date de la balise lastmod du sitemap, cliquez sur le nouveau bouton "Mettre à jour + lastmod". Ainsi, vos modifications seront à jour et la date et l'heure actualisé dans le sitemap.
+   - Lorsque vous mettez à jour la publication (avec le bouton classique bleu de WordPress " Mettre à jour "), la balise lastmod n'est PAS modifiée.
+   - Pour actualiser la date de la balise lastmod du sitemap, cliquez sur le nouveau bouton "Mettre à jour + lastmod". Ainsi, vos modifications seront à jour et la date et l'heure actualisé dans le sitemap.
    - Dans l'écran d'édition, un nouveau bouton "Mettre à jour + lastmod" apparaîtra dans la section "Publier".
    - Cliquez sur ce bouton pour mettre à jour manuellement la balise `<lastmod>` de l'article dans le sitemap.
 
