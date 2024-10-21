@@ -62,7 +62,7 @@ Non, WP XML Lastmod est conçu pour s'intégrer en douceur à votre site WordPre
 ## Changelog
 
 ### 1.1 
-* Meilleure emplacement dans la box
+* Meilleur emplacement dans la box
 * Libellé du bouton modifié : "Mettre à jour le sitemap"
 
 ### 1.0
