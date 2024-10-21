@@ -4,7 +4,7 @@ Tags: WordPress, SEO, Sitemap, XML, lastmod
 Requires at least: 5.0
 Tested up to: 6.5.3
 Requires PHP: 7.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WP XML Lastmod désactive la mise à jour automatique de la balise <lastmod> dans le sitemap.xml de WordPress et permet une mise à jour manuelle.
@@ -55,17 +55,16 @@ WP XML Lastmod nécessite WordPress 5.0 ou supérieur et PHP 7.0 ou supérieur.
 
 Non, WP XML Lastmod est conçu pour s'intégrer en douceur à votre site WordPress sans affecter d'autres fonctionnalités ou plugins.
 
-== Changelog ==
+== MAJ ==
+
+= 1.1 =
+* Meilleure emplacement dans la box
+* Libellé du bouton modifié : "Mettre à jour le sitemap"
 
 = 1.0 =
-* Premier lancement du plugin.
 * Ajout de la désactivation des mises à jour automatiques de la balise `<lastmod>` dans le sitemap.
 * Ajout d'un bouton manuel pour mettre à jour la balise `<lastmod>` dans l'écran d'édition des articles.
 
-== Upgrade Notice ==
-
-= 1.0 =
-* Premier lancement du plugin.
 
 == Notes supplémentaires ==
 
