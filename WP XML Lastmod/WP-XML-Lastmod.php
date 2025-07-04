@@ -12,6 +12,18 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/kevinbenabdelhak/WP-XML-Lastmod',
+    __FILE__,
+    'WP XML Lastmod'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('stable-branch-name');
+
 
 
 
