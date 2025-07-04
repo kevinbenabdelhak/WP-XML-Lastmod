@@ -13,22 +13,6 @@ if (!defined('ABSPATH')) {
 }
 
 
-if ( !class_exists( 'YahnisElsts\\PluginUpdateChecker\\v5\\PucFactory' ) ) {
-    require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
-}
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
-
-$monUpdateChecker = PucFactory::buildUpdateChecker(
-    'plugin-update-checker/plugin-update-checker.php', // ← change ici !
-    __FILE__,
-    'WP XML Lastmod'  // généralement le nom du dossier de ton plugin
-);
-
-// Optionnel : préciser la branche stable si ce n'est pas "master" ou "main"
-$monUpdateChecker->setBranch('main');
-
-
-
 
 
 
