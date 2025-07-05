@@ -3,7 +3,7 @@
  * Plugin Name: WP XML Lastmod
  * Plugin URI: https://kevin-benabdelhak.fr/plugins/wp-xml-lastmod/
  * Description: WP XML Lastmod désactive la mise à jour automatique de la balise <lastmod> dans le sitemap.xml de WordPress. Accédez à un second bouton de mise à jour manuelle.
- * Version: 1.1
+ * Version: 1.2
  * Author: Kevin BENABDELHAK
  * License: GPL2
  */
