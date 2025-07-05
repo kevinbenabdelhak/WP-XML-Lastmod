@@ -3,7 +3,7 @@
  * Plugin Name: WP XML Lastmod
  * Plugin URI: https://kevin-benabdelhak.fr/plugins/wp-xml-lastmod/
  * Description: WP XML Lastmod désactive la mise à jour automatique de la balise <lastmod> dans le sitemap.xml de WordPress. Accédez à un second bouton de mise à jour manuelle.
- * Version: 1.2
+ * Version: 1.1
  * Author: Kevin BENABDELHAK
  * License: GPL2
  */
@@ -15,20 +15,20 @@ if (!defined('ABSPATH')) {
 
 
 
+
 if ( !class_exists( 'YahnisElsts\\PluginUpdateChecker\\v5\\PucFactory' ) ) {
     require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
 }
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $monUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/kevinbenabdelhak/wp-xml-lastmod/', // ← change ici !
+    'https://github.com/kevinbenabdelhak/WP-XML-Lastmod/', 
     __FILE__,
-    'wp-xml-lastmod'  // généralement le nom du dossier de ton plugin
+    'wp-xml-lastmod' 
 );
 
 // Optionnel : préciser la branche stable si ce n'est pas "master" ou "main"
 $monUpdateChecker->setBranch('main');
-
 
 
 
