@@ -21,9 +21,9 @@ if ( !class_exists( 'YahnisElsts\\PluginUpdateChecker\\v5\\PucFactory' ) ) {
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $monUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/kevinbenabdelhak/WP-XML-Lastmod', // ← change ici !
+    'https://github.com/kevinbenabdelhak/wp-xml-lastmod/', // ← change ici !
     __FILE__,
-    'WP XML Lastmod'  // généralement le nom du dossier de ton plugin
+    'wp-xml-lastmod'  // généralement le nom du dossier de ton plugin
 );
 
 // Optionnel : préciser la branche stable si ce n'est pas "master" ou "main"
